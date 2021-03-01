@@ -1,0 +1,9 @@
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.csproj.GenerateResource.cache
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.csproj.CoreCompileInputs.cache
+C:\temp\quanlybanhang\bin\Debug\Quanlybangdia.exe
+C:\temp\quanlybanhang\bin\Debug\Quanlybangdia.pdb
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.Properties.Resources.resources
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.exe
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.pdb
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.frmBangdia.resources
+C:\temp\quanlybanhang\obj\Debug\Quanlybangdia.csprojAssemblyReference.cache
