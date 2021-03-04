@@ -18,8 +18,8 @@
         <Button x:Name="btnSua" Content="Sửa" HorizontalAlignment="Left" Height="45" Margin="329,138,0,0" VerticalAlignment="Top" Width="104" Click="btnSua_Click" FontSize="16"/>
         <Button x:Name="btnXoa" Content="Xóa" HorizontalAlignment="Left" Height="45" Margin="482,138,0,0" VerticalAlignment="Top" Width="106" Click="btnXoa_Click" FontSize="16"/>
         <Button x:Name="btnThoat" Content="Thoát" HorizontalAlignment="Left" Height="45" Margin="632,138,0,0" VerticalAlignment="Top" Width="97" Click="btnThoat_Click" FontSize="16"/>
-        <GroupBox Header="Nhập thông tin băng đĩa" HorizontalAlignment="Left" Height="79" Margin="33,24,0,0" VerticalAlignment="Top" Width="826"/>
-        <GroupBox Header="Thông tin chi tiết băng đĩa" HorizontalAlignment="Left" Height="176" Margin="33,216,0,0" VerticalAlignment="Top" Width="826">
+        <GroupBox Header="Nhập thông tin băng đĩa" HorizontalAlignment="Left" Height="79" Margin="33,24,0,0" VerticalAlignment="Top" Width="826" Foreground="#FFF300FF"/>
+        <GroupBox Header="Thông tin chi tiết băng đĩa" HorizontalAlignment="Left" Height="176" Margin="33,216,0,0" VerticalAlignment="Top" Width="826" Foreground="#FFF300FF">
             <DataGrid x:Name="dataGridView1" HorizontalAlignment="Left" Height="132" Margin="9,10,0,0" VerticalAlignment="Top" Width="790" SelectionChanged="dataGridView1_SelectionChanged"/>
         </GroupBox>
 
