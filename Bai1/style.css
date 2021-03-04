@@ -1,12 +1,12 @@
 /* © 2021 Copyright by Tiendatmagic */
 body {
   margin: 0;
-  padding: 0;
+
 }
 
 #menu {
   overflow: hidden;
-  width: 100%;
+
   background-color: #444444;
 }
 
@@ -23,7 +23,11 @@ body {
 #menu a.active {
   background-color: #4dca51;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .header p,
 .content p {
   font-size: 20px;
