@@ -23,6 +23,7 @@ namespace quanlybangdia
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// © 2021 Copyright by Tiendatmagic
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -35,7 +36,7 @@ namespace quanlybangdia
 
                 using (SqlConnection connection =
 
-                  new SqlConnection(@"Data Source=DESKTOP-71BIMAM;Initial Catalog=quanlybangdia;Integrated Security=True"))
+                  new SqlConnection(@"Data Source=DESKTOP-GUI4K6S;Initial Catalog=quanlybangdia;Integrated Security=True"))
 
                 {
 
@@ -119,7 +120,7 @@ namespace quanlybangdia
                 return;
             }
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-71BIMAM;Initial Catalog=quanlybangdia;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-GUI4K6S;Initial Catalog=quanlybangdia;Integrated Security=True");
 
             SqlCommand cmd = new SqlCommand("insert into BangDia(MaBD,Tenbangdia,Soluong) values('" + txtBangdia.Text + "',N'" + txtTenbangdia.Text + "','" + txtSoluong.Text + "' )", con);
             con.Open(); // mo ket noi
@@ -165,7 +166,7 @@ namespace quanlybangdia
                 return;
             }
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-71BIMAM;Initial Catalog=quanlybangdia;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-GUI4K6S;Initial Catalog=quanlybangdia;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("update BangDia set MaBD='" + txtBangdia.Text + "',Tenbangdia=N'" + txtTenbangdia.Text + "',Soluong='" + txtSoluong.Text + "' where MaBD='" + txtBangdia.Text + "'", con);
             con.Open(); // mo ket noi
             cmd.ExecuteNonQuery(); // thuc thi
@@ -183,14 +184,14 @@ namespace quanlybangdia
                 return;
             }
 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-71BIMAM;Initial Catalog=quanlybangdia;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-GUI4K6S;Initial Catalog=quanlybangdia;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("delete from BangDia  where MaBD='" + txtBangdia.Text + "'", con);
             con.Open(); // mo ket noi
             cmd.ExecuteNonQuery(); // thuc thi
             con.Close();
             Loadbang();
         }
-
+        /// © 2021 Copyright by Tiendatmagic
         private void btnThoat_Click(object sender, RoutedEventArgs e)
         {
 
